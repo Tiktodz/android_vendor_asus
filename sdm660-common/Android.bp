@@ -158,3 +158,79 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+dex_import {
+	name: "com.quicinc.cne.api-V1.1-java",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.api-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.constants-V1.0-java",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.constants-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.constants-V2.0-java",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.constants-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.constants-V2.1-java",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.constants-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.cne.internal.api-V1.0-java",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.cne.internal.constants-V1.0-java",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.constants-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.connection-V1.0-java",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.connection-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.connection-V1.1-java",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.connection-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.dynamicdds-V1.0-java",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.iwlan-V1.0-java",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.qmi-V1.0-java",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar"],
+	system_ext_specific: true,
+}
