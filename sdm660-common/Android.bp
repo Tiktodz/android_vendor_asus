@@ -5,6 +5,12 @@
 soong_namespace {
 }
 
+dex_import {
+	name: "audiosphere",
+	owner: "asus",
+	jars: ["proprietary/framework/audiosphere.jar"],
+}
+
 cc_prebuilt_library_shared {
 	name: "libqsocket",
 	owner: "asus",
