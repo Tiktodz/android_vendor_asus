@@ -176,6 +176,23 @@ dex_import {
 	system_ext_specific: true,
 }
 
+android_app_import {
+	name: "WfdService",
+	owner: "asus",
+	apk: "proprietary/system/priv-app/WfdService/WfdService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+dex_import {
+	name: "WfdCommon",
+	owner: "asus",
+	jars: ["proprietary/system/framework/WfdCommon.jar"],
+}
+
 dex_import {
 	name: "dpmapi",
 	owner: "asus",
