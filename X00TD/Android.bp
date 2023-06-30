@@ -5,10 +5,3 @@
 soong_namespace {
 }
 
-dex_import {
-	name: "vendor.qti.hardware.fingerprint-V1.0-java",
-	owner: "asus",
-	jars: ["proprietary/product/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar"],
-	product_specific: true,
-}
-
