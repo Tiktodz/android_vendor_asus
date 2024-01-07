@@ -128,6 +128,17 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
+	name: "WfdService",
+	owner: "asus",
+	apk: "proprietary/system/priv-app/WfdService/WfdService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "CneApp",
 	owner: "asus",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
@@ -474,6 +485,12 @@ prebuilt_etc_xml {
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
+}
+
+dex_import {
+	name: "WfdCommon",
+	owner: "asus",
+	jars: ["proprietary/system/framework/WfdCommon.jar"],
 }
 
 prebuilt_etc_xml {
